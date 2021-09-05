@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind screens;
+
+@tailwind utilities;
+
+@layer utilities {
+
+    .weekday-style{
+       @apply -rotate-90;
+       @apply -10;
+    }
+}
